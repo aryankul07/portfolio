@@ -217,12 +217,13 @@ export default function HeroSection() {
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             >
               {/* Profile photo placeholder */}
+              {/* Profile photo */}
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <div className="w-24 h-24 rounded-full border-2 border-blue-500/40 flex items-center justify-center mb-3"
-                  style={{ background: "rgba(59,130,246,0.1)" }}>
-                  <span className="font-display text-3xl font-bold gradient-text">AK</span>
-                </div>
-                <span className="text-slate-500 text-xs font-mono">Replace with photo</span>
+               <img
+                 src="/pfp.jpg"
+                 alt="Aryan Kulshreshtha"
+                 className="w-24 h-24 rounded-full border-2 border-blue-500/40 object-cover"
+               />
               </div>
               {/* Inner gradient overlay */}
               <div className="absolute inset-0"
