@@ -175,7 +175,7 @@ export default function HeroSection() {
             >
               {[
                 { value: "2026", label: "Batch" },
-                { value: "BBA(Hons.)", label: "Program" },
+                { value: "BBA Honours", label: "Program" },
                 { value: "∞", label: "Ambition" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
