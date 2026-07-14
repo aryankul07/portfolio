@@ -174,8 +174,8 @@ export default function HeroSection() {
               className="mt-12 flex items-center gap-8 justify-center lg:justify-start"
             >
               {[
-                { value: "2025", label: "Batch" },
-                { value: "BBA", label: "Program" },
+                { value: "2026", label: "Batch" },
+                { value: "BBA(Hons.)", label: "Program" },
                 { value: "∞", label: "Ambition" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
