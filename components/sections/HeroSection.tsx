@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { ArrowDown, Download, Mail, MapPin, Sparkles } from "lucide-react";
+import Image from "next/image";
 
 const ROTATING_WORDS = [
   "BBA Student",
@@ -218,17 +219,15 @@ export default function HeroSection() {
             >
               {/* Profile photo placeholder */}
               {/* Profile photo */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center">
-               <img
-                 src="pfp.jpeg"
+              <div className="absolute inset-0 rounded-full overflow-hidden">
+               <Image
+                 src="/pfp.jpeg"
                  alt="Aryan Kulshreshtha"
-                 className="w-24 h-24 rounded-full border-2 border-blue-500/40 object-cover"
+                 fill
+                 priority
+                 className="object-cover"
                />
               </div>
-              {/* Inner gradient overlay */}
-              <div className="absolute inset-0"
-                style={{ background: "radial-gradient(circle at 30% 30%, rgba(59,130,246,0.2), transparent 60%)" }} />
-            </motion.div>
 
             {/* Floating badges */}
             <motion.div
