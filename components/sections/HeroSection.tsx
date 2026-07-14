@@ -220,7 +220,7 @@ export default function HeroSection() {
               {/* Profile photo */}
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                <img
-                 src="/pfp.jpeg"
+                 src="pfp.jpeg"
                  alt="Aryan Kulshreshtha"
                  className="w-24 h-24 rounded-full border-2 border-blue-500/40 object-cover"
                />
