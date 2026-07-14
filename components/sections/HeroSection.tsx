@@ -86,7 +86,7 @@ export default function HeroSection() {
               style={{ background: "rgba(59,130,246,0.08)" }}
             >
               <Sparkles size={14} className="animate-pulse" />
-              <span>Incoming BBA • TAPMI Bengaluru</span>
+              <span> BBA(Hons.) Student • TAPMI Bengaluru</span>
             </motion.div>
 
             {/* Name */}
