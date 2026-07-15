@@ -5,10 +5,10 @@ import { Users, Target, Lightbulb, BarChart3, Globe, Rocket, Heart, Handshake } 
 import SectionWrapper, { SectionTitle } from "@/components/ui/SectionWrapper";
 
 const impactStats = [
-  { value: "100+", label: "Members", icon: Users, color: "#3b82f6" },
-  { value: "15+", label: "Events Hosted", icon: Globe, color: "#8b5cf6" },
+  { value: "30+", label: "Members", icon: Users, color: "#3b82f6" },
+  { value: "0", label: "Events Hosted", icon: Globe, color: "#8b5cf6" },
   { value: "5+", label: "Cities Reached", icon: BarChart3, color: "#06b6d4" },
-  { value: "2024", label: "Founded", icon: Rocket, color: "#f59e0b" },
+  { value: "2026", label: "Founded", icon: Rocket, color: "#f59e0b" },
 ];
 
 const pillars = [
@@ -83,10 +83,10 @@ export default function CommunitySection() {
               </div>
 
               <h3 className="text-3xl font-display font-bold text-white mb-2">
-                Your Community Name
+                Indian Youth Circle
               </h3>
               <p className="text-blue-400 font-semibold mb-4">
-                Replace with your actual community/organization name
+                Formerly Truthed For Young
               </p>
 
               <p className="text-slate-400 leading-relaxed max-w-2xl">
