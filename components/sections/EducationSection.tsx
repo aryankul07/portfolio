@@ -5,7 +5,7 @@ import { GraduationCap, Calendar, MapPin, Award, BookOpen, Star } from "lucide-r
 import SectionWrapper, { SectionTitle } from "@/components/ui/SectionWrapper";
 
 const highlights = [
-  { icon: BookOpen, label: "BBA Program", value: "Business Administration" },
+  { icon: BookOpen, label: "BBA(Hons) Program", value: "Business Administration" },
   { icon: Calendar, label: "Expected Graduation", value: "2028" },
   { icon: MapPin, label: "Campus", value: "Bengaluru, Karnataka" },
   { icon: Star, label: "Focus Area", value: "Finance & Entrepreneurship" },
@@ -54,10 +54,10 @@ export default function EducationSection() {
                     style={{ background: "rgba(59,130,246,0.08)" }}>
                     Current
                   </span>
-                  <span className="text-slate-500 text-xs font-mono">2025 — 2028</span>
+                  <span className="text-slate-500 text-xs font-mono">2026 — 2030</span>
                 </div>
                 <h3 className="text-3xl font-display font-bold text-white mb-1">
-                  Bachelor of Business Administration
+                  Bachelor of Business Administration (Hons.)
                 </h3>
                 <p className="text-xl gradient-text font-semibold">
                   T.A. Pai Management Institute (TAPMI) · Bengaluru
@@ -127,7 +127,7 @@ export default function EducationSection() {
           <p className="text-slate-500 text-sm italic">
             "Education is not just what you learn — it's who you become in the process."
           </p>
-          <span className="text-slate-600 text-xs mt-1 block">— Aryan's philosophy</span>
+          <span className="text-slate-600 text-xs mt-1 block">— My Philosophy</span>
         </motion.div>
       </div>
     </SectionWrapper>
