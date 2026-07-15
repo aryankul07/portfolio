@@ -84,7 +84,7 @@ export default function AboutSection() {
             viewport={{ once: true }}
             className="text-slate-300 text-lg leading-relaxed mb-8"
           >
-            I am Aryan Kulshreshtha — an incoming BBA student at{" "}
+            I am Aryan Kulshreshtha — a BBA(Hons.) student at{" "}
             <span className="text-blue-400 font-semibold">TAPMI Bengaluru</span>, driven by a
             deep conviction that business done right can change the world. My interests span
             finance, entrepreneurship, leadership, and community building.
