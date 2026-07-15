@@ -220,14 +220,24 @@ export default function HeroSection() {
               {/* Profile photo placeholder */}
               {/* Profile photo */}
               <div className="absolute inset-0 rounded-full overflow-hidden">
-               <Image
-                 src="/pfp.jpeg"
-                 alt="Aryan Kulshreshtha"
-                 fill
-                 priority
-                 className="object-cover"
-               />
-              </div>
+  <Image
+    src="/pfp.jpeg"
+    alt="Aryan Kulshreshtha"
+    fill
+    priority
+    className="object-cover"
+  />
+             </div>
+
+{/* Inner gradient overlay */}
+<div
+  className="absolute inset-0 pointer-events-none"
+  style={{
+    background:
+      "radial-gradient(circle at 30% 30%, rgba(59,130,246,0.2), transparent 60%)",
+  }}
+/>
+</motion.div>
 
             {/* Floating badges */}
             <motion.div
