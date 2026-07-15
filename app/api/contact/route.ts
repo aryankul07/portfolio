@@ -245,7 +245,7 @@ export async function POST(
   const { data: sent, error } = await resend.emails.send({
     from: FROM_ADDRESS,
     to: [TO_ADDRESS],
-    reply_to: `${data.name} <${data.email}>`,
+    reply_To: `${data.name} <${data.email}>`,
     subject: emailSubject,
     html: buildEmailHtml(data, timestamp),
     text: buildEmailText(data, timestamp),
