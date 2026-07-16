@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Users, Target, Lightbulb, BarChart3, Globe, Rocket, Heart, Handshake } from "lucide-react";
 import SectionWrapper, { SectionTitle } from "@/components/ui/SectionWrapper";
+import Image from "next/image";
 
 const impactStats = [
   { value: "30+", label: "Members", icon: Users, color: "#3b82f6" },
@@ -61,10 +62,19 @@ export default function CommunitySection() {
         <div className="relative z-10">
           <div className="flex flex-col md:flex-row items-start gap-8">
             {/* Logo */}
-            <div className="w-20 h-20 rounded-2xl border border-blue-500/30 flex items-center justify-center flex-shrink-0"
-              style={{ background: "rgba(59,130,246,0.08)" }}>
-              <Users size={36} className="text-blue-400" />
-            </div>
+            
+<div
+  className="w-20 h-20 rounded-2xl border border-blue-500/30 flex items-center justify-center flex-shrink-0 overflow-hidden"
+  style={{ background: "rgba(59,130,246,0.08)" }}
+>
+  <Image
+    src="/IYC.png"
+    alt="Indian Youth Circle Logo"
+    width={80}
+    height={80}
+    className="object-contain p-2"
+  />
+</div>
 
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-2 flex-wrap">
