@@ -132,19 +132,7 @@ export default function AchievementsSection() {
         ))}
       </div>
 
-      {/* Upload CTA */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        className="glass rounded-2xl p-8 border border-dashed border-white/10 text-center"
-      >
-        <Upload size={32} className="text-blue-400 mx-auto mb-3 opacity-60" />
-        <h3 className="font-semibold text-white mb-2">Add Your Certificates</h3>
-        <p className="text-slate-500 text-sm">
-          Replace the placeholders above with your real certificates. Supports PNG, JPG, and PDF.
-        </p>
-      </motion.div>
+    
 
       {/* Modal */}
       <AnimatePresence>
