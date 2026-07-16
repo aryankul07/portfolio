@@ -68,7 +68,7 @@ export default function CommunitySection() {
   style={{ background: "rgba(59,130,246,0.08)" }}
 >
   <Image
-    src="/IYC.png"
+    src="/IYCLOGO.png"
     alt="Indian Youth Circle Logo"
     width={80}
     height={80}
