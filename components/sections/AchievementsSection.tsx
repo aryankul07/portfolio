@@ -173,13 +173,11 @@ export default function AchievementsSection() {
               <p className="text-slate-400 text-sm mb-1">{selectedCert.issuer}</p>
               <p className="text-slate-600 text-sm font-mono mb-6">{selectedCert.date}</p>
               {/* Certificate image placeholder */}
-              <div className="rounded-xl border border-white/10 h-48 flex items-center justify-center mb-4"
-                style={{ background: "rgba(255,255,255,0.02)" }}>
-                <div className="text-center">
-                  <Award size={40} className="text-slate-700 mx-auto mb-2" />
-                  <span className="text-slate-600 text-xs">Certificate preview</span>
-                </div>
-              </div>
+              <img
+  src={selectedCert.image}
+  alt={selectedCert.title}
+  className="w-full rounded-xl border border-white/10 object-contain max-h-[500px]"
+/>
             </motion.div>
           </motion.div>
         )}
