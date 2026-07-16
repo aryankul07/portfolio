@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { Award, Search, X, Upload, Trophy, Star, BookOpen, Zap } from "lucide-react";
 import SectionWrapper, { SectionTitle } from "@/components/ui/SectionWrapper";
+import Image from "next/image";
 
 const stats = [
   { value: "5+", label: "Certifications", icon: Award, color: "#3b82f6" },
@@ -173,10 +174,12 @@ export default function AchievementsSection() {
               <p className="text-slate-400 text-sm mb-1">{selectedCert.issuer}</p>
               <p className="text-slate-600 text-sm font-mono mb-6">{selectedCert.date}</p>
               {/* Certificate image placeholder */}
-              <img
+              <Image
   src={selectedCert.image}
   alt={selectedCert.title}
-  className="w-full rounded-xl border border-white/10 object-contain max-h-[500px]"
+  width={900}
+  height={650}
+  className="w-full rounded-xl border border-white/10 object-contain"
 />
             </motion.div>
           </motion.div>
