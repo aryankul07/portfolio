@@ -14,10 +14,10 @@ const stats = [
 ];
 
 const placeholderCerts = [
-  { id: 1, title: "Certificate Name", issuer: "Issuing Organization", date: "2025", category: "Finance", color: "#3b82f6" },
-  { id: 2, title: "Certificate Name", issuer: "Issuing Organization", date: "2025", category: "Leadership", color: "#8b5cf6" },
+  { id: 1, title: "Aon - Early Careers Associate Account Executive (AAE) Spotlight Job Simulation", issuer: "Forage", date: "2023", category: "General Management", color: "#3b82f6", image: "/certificates/forage-gm.jpg" },
+  { id: 2, title: "Bloomberg - Client Engagement Job Simulation", issuer: "Forage", date: "2023", category: "Sales", color: "#8b5cf6", image: "/certificates/forage-sales.jpg" },
   { id: 3, title: "Omnichannel Marketing Virtual Experience Program", issuer: "Forage", date: "2023", category: "Marketing", color: "#06b6d4", image: "/certificates/forage-marketing.jpg" },
-  { id: 4, title: "Certificate Name", issuer: "Issuing Organization", date: "2024", category: "Finance", color: "#f59e0b" },
+  { id: 4, title: "Fidelity Investments - Customer Service Job Simulation", issuer: "Forage", date: "2023", category: "Customer Relationship Management", color: "#f59e0b", image: "/certificates/forage-csm.jpg" },
   { id: 5, title: "Certificate Name", issuer: "Issuing Organization", date: "2024", category: "Technology", color: "#10b981" },
   { id: 6, title: "Certificate Name", issuer: "Issuing Organization", date: "2024", category: "Leadership", color: "#ec4899" },
 ];
