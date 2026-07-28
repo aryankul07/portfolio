@@ -6,7 +6,7 @@ import SectionWrapper, { SectionTitle } from "@/components/ui/SectionWrapper";
 
 const highlights = [
   { icon: BookOpen, label: "BBA(Hons) Program", value: "Business Administration" },
-  { icon: Calendar, label: "Expected Graduation", value: "2028" },
+  { icon: Calendar, label: "Expected Graduation", value: "2029" },
   { icon: MapPin, label: "Campus", value: "Bengaluru, Karnataka" },
   { icon: Star, label: "Focus Area", value: "Finance & Entrepreneurship" },
 ];
