@@ -55,15 +55,7 @@ function SkillBar({ skill, i }: { skill: typeof skills[0]; i: number }) {
       </div>
 
       {/* Progress bar */}
-      <div className="h-1 bg-white/5 rounded-full overflow-hidden">
-        <motion.div
-          className="h-full rounded-full"
-          style={{ background: `linear-gradient(90deg, ${skill.color}, ${skill.color}99)` }}
-          initial={{ width: 0 }}
-          animate={inView ? { width: `${skill.level}%` } : {}}
-          transition={{ duration: 1.2, delay: i * 0.05 + 0.3, ease: "easeOut" }}
-        />
-      </div>
+      
     </motion.div>
   );
 }
