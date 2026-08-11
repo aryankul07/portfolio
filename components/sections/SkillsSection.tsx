@@ -9,7 +9,7 @@ import {
 import SectionWrapper, { SectionTitle } from "@/components/ui/SectionWrapper";
 
 const skills = [
-  { name: "Business & Management", icon: Briefcase, desc: "Strategic thinking, business fundamentals, organizational dynamics." },
+  { name: "Business & Management", icon: Briefcase, color: "#3b82f6", desc: "Strategic thinking, business fundamentals, organizational dynamics." },
   { name: "Leadership", icon: UserCheck, level: 85, color: "#8b5cf6", desc: "Vision setting, team motivation, leading by example." },
   { name: "Community Building", icon: Users, level: 90, color: "#06b6d4", desc: "Growing and nurturing communities from scratch." },
   { name: "Content Creation", icon: PenTool, level: 80, color: "#f59e0b", desc: "Writing, visual storytelling, digital content strategy." },
