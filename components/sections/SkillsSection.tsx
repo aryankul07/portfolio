@@ -44,6 +44,14 @@ function SkillBar({ skill, i }: { skill: typeof skills[0]; i: number }) {
           <skill.icon size={18} style={{ color: skill.color }} />
         </div>
         
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center justify-between mb-0.5">
+            <h3 className="font-semibold text-white text-sm truncate">{skill.name}</h3>
+            <span className="text-xs font-mono ml-2 flex-shrink-0" style={{ color: skill.color }}>
+              {skill.level}%
+            </span>
+          </div>
+        
           <p className="text-slate-500 text-xs leading-relaxed">{skill.desc}</p>
         </div>
       </div>
