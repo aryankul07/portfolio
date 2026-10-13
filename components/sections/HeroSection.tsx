@@ -221,7 +221,7 @@ export default function HeroSection() {
               {/* Profile photo */}
               <div className="absolute inset-0 rounded-full overflow-hidden">
   <Image
-    src="/pfp.jpeg"
+    src="/pfp.jpg"
     alt="Aryan Kulshreshtha"
     fill
     priority
