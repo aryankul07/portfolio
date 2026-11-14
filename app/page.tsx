@@ -42,6 +42,7 @@ export default function Home() {
       <AchievementsSection />
       <CommunitySection />
       <InterestsSection />
+      <ProjectsSection />
       <SocialSection />
       <ContactSection />
       <Footer />
