@@ -12,10 +12,10 @@ const HeroSection = dynamic(() => import("@/components/sections/HeroSection"), {
 const AboutSection = dynamic(() => import("@/components/sections/AboutSection"));
 const EducationSection = dynamic(() => import("@/components/sections/EducationSection"));
 const SkillsSection = dynamic(() => import("@/components/sections/SkillsSection"));
-const ProjectsSection = dynamic(() => import("@/components/sections/ProjectsSection"));
 const AchievementsSection = dynamic(() => import("@/components/sections/AchievementsSection"));
 const CommunitySection = dynamic(() => import("@/components/sections/CommunitySection"));
 const InterestsSection = dynamic(() => import("@/components/sections/InterestsSection"));
+const ProjectsSection = dynamic(() => import("@/components/sections/ProjectsSection"));
 const SocialSection = dynamic(() => import("@/components/sections/SocialSection"));
 const ContactSection = dynamic(() => import("@/components/sections/ContactSection"));
 const Footer = dynamic(() => import("@/components/Footer"));
